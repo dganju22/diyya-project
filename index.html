@@ -51,7 +51,7 @@ bread.onclick = function() {
       let timer = setInterval(function() {
         let timePassed = Date.now() - start;
 
-        bread.style.right = timePassed / 50 + 'px';
+        bread.style.right = timePassed / 200 + 'px';
 	bread.style.left = timePassed / 100 - 'px';
 
         if (timePassed > 20) clearInterval(timer);
