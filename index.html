@@ -52,8 +52,8 @@ bread.onclick = function() {
         let timePassed = Date.now() - start;
 
         bread.style.left = timePassed / 5 + 'px';
-	
-        if (timePassed > 10) clearInterval(timer);
+
+        if (timePassed > 20) clearInterval(timer);
 
       }, 20);
     }
